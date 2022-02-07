@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+
+    <!-- ========================={ cdn links }=========================-->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css" />
+
+    <!-- ========================={ external css files }=========================-->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="container">
+        <div class="left-section">
+          <!-- main image  -->
+          <img src="/images/bg-img.jpg" alt=" Main image" />
+        </div>
+        <div class="right-section">
+          <h1>Login</h1>
+
+          <!-- error msg show -->
+          <div class="error-container active"></div>
+          <!-- Login form -->
+          <form action="/login" method="post" onsubmit="return loginCheck()" oninput="loginCheck()">
+            <div>
+              <label for="email">Email:</label>
+              <div class="field">
+                <i class="bx bxl-gmail"></i>
+                <input type="email" id="email" name="email" />
+              </div>
+            </div>
+
+            <div>
+              <label for="password">Password:</label>
+              <div class="field">
+                <i class="bx bx-lock"></i>
+                <input type="password" id="password" name="password" />
+                <i class="bx bx-hide" id="passIcon"></i>
+              </div>
+            </div>
+
+            <div class="other">
+              <div><span>Don't have account?</span><a href="/signup.html">Sign Up</a></div>
+              <button>Login</button>
+            </div>
+          </form>
+          <!--End login form-->
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================={ external js files }=========================-->
+    <script src="/script.js"></script>
+    <script src="/login.js"></script>
+  </body>
+</html>
