@@ -11,7 +11,7 @@ Features:
 
 </p>
 
- ## Installation of CANalyse:
+ ## Installation
  ```
  git clone https://github.com/muhammedhabeeb-kv/Login-and-signup-page.git
 
@@ -19,13 +19,13 @@ Features:
 
 Screenshots
 ---------------
-* <img  width="700" src="/screenshots/Signup_screenshot.png"/>
+<img  width="700" src="/screenshots/Signup_screenshot.png"/>
     <hr/>
-* <img  width="700" src="/screenshots/Login_screenshot.png"/>
+<img  width="700" src="/screenshots/Login_screenshot.png"/>
 
  
 
 ### 🤝 Connect with me
 
-<a href='https://www.linkedin.com/in/muhammedhabeebkv'>Linkedin</a>
+<h4><a href='https://www.linkedin.com/in/muhammedhabeebkv'>Linkedin</a></h4>
 ---
